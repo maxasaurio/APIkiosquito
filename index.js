@@ -7,6 +7,7 @@ const port=process.env.PORT||3000
 app.use(express.json())
 app.use(express.static('public'))
 
+//tecnica 7
 app.listen (port,()=>{
     console.log(`servidor en http://localhost:${port}`)
 })
